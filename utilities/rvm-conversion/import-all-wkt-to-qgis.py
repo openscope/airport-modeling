@@ -4,7 +4,8 @@
 from qgis.core import QgsVectorLayer, QgsMapLayerRegistry
 import os, PyQt4
 
-directoryContainingWktFiles = 'D:/Dropbox/VATSIM/ZDC/vSTARSZDC/vSTARS Facility - Potomac TRACON (PCT)/WKT RVMs'
+# Remember, no backslashes '\' in paths, only forward slashes '/'
+directoryContainingWktFiles = 'D:/Dropbox/VATSIM/ZDC/vSTARSZDC/vSTARS Facility - Potomac TRACON (PCT)/Video Map WKTs'
 
 for root, dirs, files in os.walk(directoryContainingWktFiles):
     for file in files:

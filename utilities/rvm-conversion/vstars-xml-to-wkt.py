@@ -1,9 +1,10 @@
 import xml.etree.ElementTree as ET
 import os, shutil
 
+# Remember, no backslashes '\' in paths, only forward slashes '/'
 rootDirectory = 'D:/Dropbox/VATSIM/ZDC/vSTARSZDC/vSTARS Facility - Potomac TRACON (PCT)'
 inputXmlFileName = 'vSTARS Facility - Potomac TRACON (PCT)'
-subFolderName = 'WKT RVMs'
+subFolderName = 'Video Map WKTs'
 outputFileNameSuffix = '.wkt'
 
 def allValuesAreZero(values):
