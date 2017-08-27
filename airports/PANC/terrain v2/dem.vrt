@@ -1,0 +1,407 @@
+<VRTDataset rasterXSize="14401" rasterYSize="4801">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>-1.5600041666666667e+002, 8.3333333333333252e-004, 0.0000000000000000e+000, 6.4000416666666666e+001, 0.0000000000000000e+000,-8.3333333333333252e-004</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">4267</MDI>
+      <MDI key="STATISTICS_MEAN">761.0928910873</MDI>
+      <MDI key="STATISTICS_MINIMUM">-3</MDI>
+      <MDI key="STATISTICS_STDDEV">706.36444217966</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-5.135</HistMin>
+        <HistMax>4269.135</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>73|104213|473|2588|15438|10143|2733|3591|1497|932|1980|3686|3384|1989|2527|5257|2888|2742|3520|4310|2709|2686|4656|2218|2081|2256|2790|1685|1936|3943|2771|2596|2486|3487|3967|10626|12433|6425|5402|5148|5543|3185|3199|3847|3900|2202|2194|3063|2481|2580|6662|10518|4806|4689|6912|6811|4227|4702|4525|1589|1357|1320|1625|1195|1306|1248|3224|2401|2370|3682|4132|3016|3597|2732|1924|1574|1282|1356|1320|1717|2436|1466|1451|1706|2157|2645|2423|2550|2282|1823|1796|2286|1989|2509|2472|2400|1968|2161|2599|2739|4297|3564|3702|2739|3520|2718|3353|3400|3288|2655|2040|2866|2088|2270|2468|3168|1880|2352|2602|1838|1999|1542|1640|1340|1511|1124|1220|1242|2029|1966|1620|1844|1458|1527|1608|2314|2535|1994|1624|1849|1498|1565|2312|2504|2083|1772|2233|1960|2044|2768|3308|4101|2849|4353|3881|1300|1531|2119|1830|1595|1693|1240|1385|1666|2679|2496|1719|1486|1851|1511|1542|2467|2191|1478|1318|1669|1456|1613|1605|2019|1558|1358|1771|1556|1623|1974|2765|2287|2071|2639|3343|3381|3740|6411|4820|5383|3669|4672|2637|2727|4061|3877|2691|2697|4531|3087|3167|3879|4686|2846|2441|3341|2550|2502|2830|3087|2071|1912|1729|2103|1769|1896|2742|1810|1627|1608|1928|1644|1794|2000|2161|1611|1537|1946|1720|1800|1928|2091|1703|1561|1574|1979|1664|1879|2093|1556|1508|1484|1990|1694|1788|1814|2064|1635|1532|2012|1665|1704|1659|1911|1437|1433|1353|1917|1570|1611|1776|1292|1302|1313|1716|1497|1545|1764|1363|1305|1302|1669|1421|1431|1416|1845|1423|1454|1794|1551|1557|1470|1863|1511|1436|1453|1904|1635|1485|1873|1401|1426|1490|1988|1715|1772|1588|1889|1543|1630|2120|1793|1712|1673|1938|1601|1617|1685|2211|1633|1569|1856|1462|1567|1480|1981|1613|1481|1823|1332|1419|1433|1791|1420|1472|1321|1762|1417|1386|1806|1505|1511|1358|1617|1365|1357|1484|1835|1395|1311|1582|1297|1314|1484|1808|1337|1267|1255|1504|1212|1291|1595|1182|1109|1044|1347|1103|1081|1060|1360|985|982|1206|989|989|1038|1293|1009|936|947|1172|972|947|1123|878|808|834|1053|843|877|1017|797|777|809|924|692|760|725|845|693|601|799|665|704|682|827|600|629|620|728|716|625|716|628|583|582|749|583|590|545|748|524|513|723|575|675|563|613|511|473|525|616|481|435|586|461|497|367|538|419|391|386|460|399|424|438|355|393|338|434|356|362|469|368|338|354|424|359|379|365|468|353|306|432|334|303|309|400|318|312|289|379|316|251|377|273|243|309|374|250|291|272|360|264|272|314|233|261|283|299|234|257|232|307|239|258|277|237|227|216|304|224|267|218|262|202|202|275|238|221|208|259|187|197|291|199|192|189|228|192|173|190|253|205|183|235|185|189|174|267|199|177|199|280|221|268|373|269|250|274|311|208|223|211|288|227|263|284|222|228|224|256|226|203|208|223|183|185|237|185|195|174|230|174|181|244|185|168|157|201|157|153|168|227|141|178|217|195|169|197|239|178|167|153|204|166|191|218|175|165|151|170|157|153|141|180|174|143|186|160|140|164|179|150|143|131|172|135|135|175|113|120|151|156|124|134|137|169|118|126|160|127|132|146|187|128|140|215|162|151|170|206|149|171|157|192|136|149|163|134|174|177|205|133|133|133|147|134|113|137|104|118|135|169|134|130|127|162|134|116|184|136|148|146|182|142|144|154|180|134|143|180|143|154|184|206|172|136|135|167|169|135|193|134|120|140|154|136|128|145|120|140|111|158|102|120|119|137|115|125|137|132|114|132|129|120|108|120|120|118|107|125|102|129|101|122|96|108|91|128|86|88|107|92|87|82|105|80|76|100|84|69|78|87|77|67|80|86|68|84|78|73|61|67|102|67|74|57|87|72|61|72|71|70|53|65|59|61|57|69|55|82|65|61|61|66|73|66|50|57|87|48|58|88|55|50|54|63|47|66|40|65|67|41|67|63|37|34|73|49|43|54|51|52|49|49|50|48|48|51|38|44|57|42|51|34|56|50|51|53|72|49|61|50|42|46|34|71|47|46|42|64|40|44|54|55|52|46|52|53|54|52|58|41|42|54|34|54|40|50|46|40|41|50|47|42|50|44|44|49|56|40|43|50|56|53|50|46|52|47|48|66|47|43|65|56|53|64|61|53|53|46|56|45|48|55|50|42|42|48|50|34|51|58|38|40|56|39|44|45|54|38|41|41|59|39|46|54|45|33|45|48|45|36|43|49|38|27|46|41|40|38|48|38|37|37|52|34|30|57|24|31|31|35|38|34|36|26|29|33|35|26|32|31|31|28|30|31|21|19|14|40|15|19|17|28|19|19|30|27|24|25|36|25|34|43|47|76|120|142|82|50|43|51|37|35|36|51|29|34|37|37|23|46|61|32|30|38|19|21|8|18|8|6|8|7|4|5|3|2|5|5|5|6|1|0|2|2|0|0|1|0|0|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W151.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W152.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W153.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W154.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W155.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N60W156.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W151.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W152.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W153.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W154.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W155.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N61W156.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W151.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W152.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W153.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W154.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W155.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N62W156.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W151.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W152.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W153.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W154.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W155.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P05/N63W156.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W145.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W146.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W147.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W148.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W149.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N60W150.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W145.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W146.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W147.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W148.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W149.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N61W150.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W145.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W146.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W147.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W148.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W149.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N62W150.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W145.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W146.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W147.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W148.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W149.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">C:\Users\Fede Handl\Desktop\PANC\terrain\Data/P06/N63W150.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
