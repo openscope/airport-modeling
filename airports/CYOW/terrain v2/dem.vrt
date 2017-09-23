@@ -1,0 +1,215 @@
+<VRTDataset rasterXSize="7201" rasterYSize="4801">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform> -7.8000416666666666e+01,  8.3333333333333306e-04,  0.0000000000000000e+00,  4.8000416666666666e+01,  0.0000000000000000e+00, -8.3333333333333306e-04</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">1165</MDI>
+      <MDI key="STATISTICS_MEAN">278.27561518656</MDI>
+      <MDI key="STATISTICS_MINIMUM">9</MDI>
+      <MDI key="STATISTICS_STDDEV">162.97949920807</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>8.422000000000001</HistMin>
+        <HistMax>1165.578</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>729|768|605|879|380|384|420|376|323|427|1133|339|578|310|320|413|868|493|1104|1248|952|658|1666|811|765|1046|864|417|432|1781|826|2867|2145|2024|2900|12718|1725|1460|1325|1217|1203|2562|1143|1209|1363|1192|1051|1027|2412|1448|1557|1860|2776|3971|6086|2805|2469|2371|2392|2450|5127|2885|2150|2176|2059|2261|2544|5240|2592|2497|1911|979|815|2396|1851|834|1256|1820|1497|1810|2342|1409|1149|1404|1521|4540|2924|1578|1762|1963|1591|2007|4022|3282|2453|2359|2503|2376|2298|5161|2161|1876|2136|1864|1847|4193|1469|1635|1529|1587|1465|2802|1240|1304|787|703|585|689|1560|589|712|2047|813|624|1531|747|1060|727|1028|1105|2769|927|985|1025|1329|2550|1234|2668|1529|1660|1380|1285|1356|3220|1233|1178|1395|1735|1919|2344|3568|2110|2276|1691|1298|1375|3700|1224|1167|1081|1385|1482|2030|1118|1289|1427|1034|749|730|1633|589|512|552|3043|792|1195|734|604|642|624|564|1099|592|532|556|514|583|571|1109|791|1900|620|755|681|1252|691|639|639|663|1841|1591|883|868|785|750|963|787|1559|917|779|930|828|824|1870|996|981|999|932|862|842|1587|757|815|786|829|862|1870|839|1019|1540|956|852|1712|868|999|822|837|1479|833|1776|983|988|1096|1244|1037|1891|903|928|941|942|1670|3025|1201|1345|1365|1561|1536|1290|2725|1367|1227|1216|1121|1473|4630|1998|2530|2404|3644|3246|4064|1769|2094|1968|1843|2195|1934|5557|2363|2323|2738|3322|4044|4989|4479|1747|1745|1555|1529|1538|3813|1691|1771|1882|2039|2167|4090|1620|1725|1434|1453|4348|3595|2508|2565|2229|2403|2397|2905|4822|1722|1639|1450|1492|1483|2840|1369|1317|1450|3662|1763|3932|1575|1419|1418|1342|1273|1284|5361|1957|1745|1839|1702|1765|4355|1845|1807|1676|1635|1572|3208|1539|1615|1611|1788|1963|2165|4557|2011|1736|1772|1524|1429|2836|1398|1362|1460|2082|1582|1666|3564|1852|1531|1561|1504|1312|2509|1139|1532|1242|1358|1473|2758|1487|1473|1470|1400|1205|1075|2577|1164|1309|1240|3494|1171|3081|1612|1424|1292|1110|1068|2017|942|955|859|941|1025|1210|1974|1093|1116|1070|935|867|1639|810|817|817|771|810|1633|841|882|1022|1070|862|889|1529|761|658|672|678|733|1748|855|929|1001|1297|983|843|1411|639|582|623|676|625|1317|647|716|787|867|738|1231|615|589|527|529|443|513|1044|529|531|627|570|481|818|354|303|300|298|249|553|242|267|298|338|333|322|571|270|225|234|227|194|347|176|197|187|179|194|377|170|166|164|168|178|142|282|126|135|112|126|134|282|126|114|99|85|90|87|218|78|94|93|89|89|185|78|79|82|94|89|149|67|79|84|74|58|81|167|84|84|70|61|65|145|85|71|67|77|65|142|64|67|66|81|64|87|151|74|67|62|81|80|186|89|89|81|93|86|170|76|80|78|54|86|77|161|80|73|61|68|74|134|62|65|63|53|64|134|80|64|70|70|64|53|116|68|67|74|75|57|124|56|76|63|70|59|61|96|67|62|62|66|69|108|72|56|48|64|54|84|47|50|49|55|53|64|124|55|43|56|54|49|107|53|51|43|54|44|84|48|61|45|45|42|45|90|50|42|46|54|38|85|51|52|47|42|46|76|39|40|43|33|41|34|95|46|45|47|40|42|86|36|40|40|32|37|37|83|35|33|45|41|35|84|22|42|41|40|38|70|37|45|33|38|36|41|72|35|38|31|44|47|73|27|38|33|37|30|68|35|27|25|23|29|39|62|35|31|41|36|26|53|36|34|30|31|32|68|22|27|32|29|29|32|65|30|16|38|24|25|59|21|29|21|26|30|19|52|23|28|19|29|21|54|26|27|25|27|28|51|16|23|21|27|23|26|36|23|26|14|21|18|36|17|19|20|20|18|40|24|21|18|20|19|20|34|16|11|21|17|16|45|22|12|18|26|14|33|20|6|20|19|21|9|35|16|18|17|17|16|36|19|16|18|19|15|24|25|11|16|9|12|8|23|18|16|17|16|9|28|10|9|12|18|16|9|33|4|12|15|7|12|30|16|9|12|14|16|24|16|6|10|7|14|16|14|11|7|9|6|14|25|13|9|5|12|12|23|9|11|8|9|10|5|18|6|7|12|10|5|18|6|11|8|9|8|7|18|5|10|8|9|4|5|5|2|8|7|6|10|7|4|10|9|7|5|12|8|3|9|5|4|15|8|5|5|11|7|16|9|8|11|2|10|7|13|9|8|6|4|2|13|4|4|6|6|6|12|5|4|4|3|7|3|6|4|3|1|3|3|11|5|2|3|3|4|1|10|1|3|4|3|4|4|2|5|1|2|4|6|2|3|2|1|1|1|6|1|1|1|1|4|2|1|4|3|0|2|6|0|1|1|2|2|1|4|3|2|1|1|0|3|1|1|3|1|2|0|3|1|1|2|0|2|1|0|2|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W073.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W074.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W075.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W076.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W077.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N44W078.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W073.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W074.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W075.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W076.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W077.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N45W078.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W073.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W074.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W075.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W076.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W077.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N46W078.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W073.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W074.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W075.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W076.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W077.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\Fede Handl\Desktop\CYOW\terrain\data/L18/N47W078.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
