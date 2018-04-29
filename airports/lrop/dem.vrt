@@ -1,0 +1,215 @@
+<VRTDataset rasterXSize="7201" rasterYSize="4801">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  2.3999583333333334e+01,  8.3333333333333306e-04,  0.0000000000000000e+00,  4.8000416666666666e+01,  0.0000000000000000e+00, -8.3333333333333306e-04</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">1979</MDI>
+      <MDI key="STATISTICS_MEAN">336.74375580364</MDI>
+      <MDI key="STATISTICS_MINIMUM">-8</MDI>
+      <MDI key="STATISTICS_STDDEV">396.11658445698</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-8.993500000000001</HistMin>
+        <HistMax>1979.9935</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>2|8|101|5396|51404|8891|7150|3375|4871|10072|7243|2917|3570|4090|2246|1657|1406|1458|1730|2276|1891|3632|4196|3346|2579|3674|4684|5817|5874|5271|5076|4042|3296|3182|3143|2915|2928|2959|3103|3597|3845|4054|4716|5705|5578|6280|6943|9060|9921|8135|5209|4644|4218|4106|3985|4048|3693|4057|4356|5309|5550|5058|4512|4103|4001|3497|3327|2700|2233|2023|1957|2055|2132|2284|2172|2504|2481|2243|2241|2273|2265|2578|2469|2355|2494|2353|2350|2325|2279|2315|2513|1300|2701|2831|2926|2832|2775|2800|2710|2526|2423|2284|2326|2293|2281|2207|2163|2063|1816|1620|1419|1441|1417|1449|1445|1279|1243|1230|1061|1075|992|1073|1095|1062|1062|1116|1220|1200|1140|1029|1163|1145|1193|1241|1286|1193|1186|1145|1065|1084|1025|992|1001|1025|1078|1039|1045|1056|1019|1000|1062|923|1040|1120|1110|1076|1173|1109|1161|1136|1130|1215|1257|1236|1315|1200|1233|1204|1272|1219|1311|1333|1409|1534|1711|1885|1964|1711|1435|1362|1290|1299|597|1426|1493|1688|1674|1755|1804|1665|1599|1338|1325|1205|1230|1184|1228|1278|1182|1216|1260|1122|1175|1032|1107|1007|1062|1041|985|1019|1003|1001|971|927|945|924|819|804|1078|1405|1442|1412|1267|974|900|908|820|948|1024|970|1065|985|978|837|827|870|829|826|828|826|816|757|690|697|803|789|694|656|616|557|539|481|495|492|504|528|486|485|430|429|437|397|360|348|323|259|267|258|266|269|243|234|112|213|199|252|229|193|218|216|207|212|214|205|197|199|189|200|201|200|203|200|188|204|177|165|162|163|160|181|156|136|159|138|167|170|174|150|155|160|191|148|147|149|141|157|181|170|222|206|199|187|190|178|201|150|194|202|181|156|185|176|208|168|176|193|193|188|184|192|185|188|198|168|190|195|191|192|203|219|218|199|198|190|207|220|226|206|244|239|237|230|220|111|240|229|238|267|267|252|241|244|275|262|284|270|269|266|298|282|283|310|291|275|278|308|309|280|327|320|324|341|332|324|364|324|336|337|357|368|348|374|345|366|335|376|388|362|366|387|371|393|400|367|376|385|406|395|419|419|374|398|398|398|419|422|409|428|412|410|415|374|378|423|456|426|438|387|451|435|449|412|422|423|390|403|414|434|413|454|406|405|435|427|224|423|451|433|467|436|443|449|436|444|447|446|478|467|452|462|464|492|440|480|480|488|461|472|473|463|480|465|466|448|510|503|486|450|469|478|456|515|462|508|467|490|466|486|455|480|483|510|484|488|515|499|471|525|485|517|542|496|477|495|520|471|473|472|480|479|483|457|475|478|468|489|438|476|444|433|456|492|488|500|480|436|456|490|431|442|454|423|479|459|430|237|444|460|428|493|449|450|478|454|430|436|431|468|504|401|409|447|473|439|413|417|414|440|417|442|418|427|453|458|440|434|434|401|426|424|421|399|430|429|423|406|391|401|382|401|382|441|374|395|414|382|396|379|361|384|385|414|387|397|334|357|327|369|342|367|371|380|321|336|343|345|347|338|353|359|332|288|340|276|287|298|285|316|315|292|289|289|289|297|245|268|130|292|293|301|260|253|247|280|256|250|274|252|256|246|274|239|222|261|235|270|261|247|219|220|225|201|249|202|207|251|196|182|201|211|212|181|190|175|167|188|179|188|174|142|165|156|166|144|143|142|132|132|164|122|145|135|128|126|131|125|115|118|117|129|106|120|129|119|105|141|135|139|105|97|126|146|116|119|114|130|117|112|123|118|100|110|129|117|127|119|107|48|123|103|102|96|130|120|123|107|108|117|117|106|109|114|125|101|115|109|114|99|96|116|123|126|110|109|95|110|109|118|98|91|107|106|90|101|120|97|110|96|105|93|86|76|105|99|87|93|104|108|95|84|98|98|88|83|88|84|76|102|86|73|88|98|77|85|86|69|78|84|89|66|81|84|77|75|64|70|74|75|75|63|71|77|76|80|72|64|63|27|70|68|47|65|82|72|77|55|69|69|64|62|62|53|67|62|73|61|59|46|66|68|73|63|48|47|58|46|65|46|62|47|65|53|61|52|44|53|46|63|47|67|46|44|41|68|35|51|47|39|50|47|57|32|39|40|58|39|52|40|39|45|38|28|39|46|38|36|27|37|38|27|33|35|23|37|36|26|34|21|27|20|26|23|26|22|18|22|14|12|18|15|16|18|15|24|25|21|10|11|14|20|14|13|12|9|14|12|9|11|8|17|10|9|10|7|7|4|8|9|3|11|9|5|4|8|4|4|3|6|3|3|9|6|4|2|3|2|3|1|4|1|2|6|2|2|3|3|2|2|0|3|1|4|1|0|3|1|1|2|0|1|0|3|0|0|0|1|0|0|0|0|0|2|0|0|0|0|0|0|0|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E024.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E025.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E026.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E027.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E028.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N44E029.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E024.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E025.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E026.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E027.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E028.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N45E029.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E024.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E025.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E026.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E027.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E028.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N46E029.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E024.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E025.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E026.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E027.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E028.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">E:\lrop-qgis\DEM/N47E029.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
