@@ -1,0 +1,215 @@
+<VRTDataset rasterXSize="7201" rasterYSize="4801">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  1.1999583333333334e+01,  8.3333333333333306e-04,  0.0000000000000000e+00,  5.2000416666666666e+01,  0.0000000000000000e+00, -8.3333333333333306e-04</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">1376</MDI>
+      <MDI key="STATISTICS_MEAN">334.30751718344</MDI>
+      <MDI key="STATISTICS_MINIMUM">24</MDI>
+      <MDI key="STATISTICS_STDDEV">209.35299678731</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>23.324</HistMin>
+        <HistMax>1376.676</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>2|7|3|5|6|4|1|3|3|1|1|6|1|4|4|2|2|1|2|2|5|84|71|98|360|860|1641|3029|1501|1241|2791|2003|2625|5247|2528|4069|1499|1378|3240|1879|1825|3462|1371|1401|2405|1296|1248|2546|1280|1454|3804|2213|4760|2699|2589|4672|1964|1711|3132|1355|1305|2571|1435|2667|7094|2341|1857|3164|1401|2535|1032|888|1595|700|806|2622|1828|2283|3874|1603|1337|2443|1623|2381|1358|1535|4328|1852|1528|2992|1710|2077|4527|2037|2134|4160|2283|1958|3731|2044|4933|2428|2827|6534|3214|2821|4804|2196|2113|4057|2140|1990|4152|2085|1911|3663|1741|3327|1538|1488|2775|1260|1237|2508|1214|1251|2499|1277|1247|2508|1331|1432|2897|1615|3612|1854|1669|2766|1433|1522|3055|1396|1564|2980|1410|1340|2905|1470|1361|2638|1240|2541|1256|1250|2327|1069|1073|2192|1133|1161|2306|1124|1130|2348|1136|1230|2299|1145|2182|1058|1063|2112|1127|1122|2145|1095|1090|2216|1106|1175|2298|1123|1141|2202|1098|2209|1116|1090|2441|1063|977|1796|985|917|1835|857|869|1673|906|897|1654|770|1700|828|807|1641|752|720|1452|742|726|1486|719|751|1476|768|1647|829|803|1647|795|775|1550|760|785|1623|831|968|2021|1227|1295|2274|920|2028|1049|1031|2019|1103|1054|2179|1035|1138|2375|1202|1623|2388|1041|1502|2170|1088|2266|1139|1116|2219|1133|1084|2364|1199|1326|2964|1471|1570|3077|1369|1317|2526|1282|2639|1371|1318|2576|1416|1370|2891|1349|1383|2817|1332|1303|2663|1364|1324|2665|1433|2812|1382|1263|2620|1407|1412|3167|1659|1598|3803|2027|2030|3886|1952|1826|3834|1753|3689|1701|1631|3224|1588|1554|2933|1508|1466|2908|1406|1393|2783|1351|1385|2768|1547|2924|1473|1349|2888|1418|1360|2677|1316|1328|2633|1366|1279|2822|1368|1336|2722|1331|2612|1207|1283|2561|1329|1300|2560|1277|1238|2417|1168|1187|2199|1103|1101|2187|1041|1976|978|1054|1880|966|910|1821|931|928|1831|858|892|1670|835|1700|791|778|1652|813|779|1520|698|771|1445|742|745|1435|682|674|1369|648|1305|669|598|1178|606|625|1170|540|589|1088|585|553|1061|516|535|945|527|908|471|508|964|490|502|978|495|474|991|527|502|966|485|509|1018|491|1043|507|556|1077|548|527|1118|612|556|1163|520|550|1030|502|507|981|531|1011|544|513|1067|496|552|986|520|531|937|476|518|948|451|474|905|419|841|410|405|854|388|419|811|403|394|771|341|382|768|348|416|762|358|783|384|378|729|361|386|665|312|337|691|304|317|654|309|336|635|271|552|308|272|554|269|241|476|222|247|419|219|207|418|227|207|444|224|458|195|194|399|201|201|405|192|196|407|193|209|394|208|373|216|209|376|208|215|402|192|184|410|192|182|362|154|175|316|167|300|174|160|279|142|141|294|146|151|269|110|146|269|119|97|187|94|173|80|80|162|72|63|132|71|73|133|51|54|125|56|60|86|37|74|37|36|59|34|28|55|26|22|46|19|22|55|19|13|42|21|41|15|22|39|21|16|34|13|21|30|10|14|27|27|13|16|11|29|12|19|35|17|13|42|20|19|36|21|19|30|17|24|35|17|45|19|19|35|22|21|44|22|25|43|10|15|38|26|20|34|19|34|20|18|39|16|17|45|24|16|35|18|22|38|22|37|15|13|37|18|21|37|18|21|35|15|21|32|17|16|44|23|34|13|9|40|18|16|27|14|20|40|18|11|33|19|20|36|12|39|20|32|29|14|31|47|19|16|56|25|18|43|14|26|43|25|40|23|24|52|30|20|43|18|23|46|18|27|48|29|23|47|23|52|27|26|49|31|23|49|22|28|51|22|19|55|24|24|48|20|36|27|22|38|24|28|61|28|24|44|29|35|56|29|23|50|23|47|34|14|58|25|30|51|22|24|58|33|40|64|43|40|64|36|76|34|42|54|34|35|71|40|36|67|30|34|64|49|36|56|36|75|51|37|67|38|42|79|35|45|77|43|32|76|39|94|34|44|81|39|44|83|38|44|92|49|53|96|53|43|102|49|103|68|49|112|46|58|128|58|74|138|69|71|153|71|56|143|62|121|61|58|124|51|86|135|60|68|158|58|72|136|77|88|139|76|131|73|87|143|74|64|116|59|70|153|53|56|119|60|71|144|69|114|51|63|127|63|50|110|54|65|106|45|52|107|35|41|114|47|87|49|40|77|55|39|81|55|39|72|42|52|93|41|33|78|29|71|39|33|83|35|25|64|44|36|69|35|37|52|38|23|50|23|52|21|21|31|28|22|54|19|21|44|21|24|41|21|36|12|23|36|16|15|35|17|17|28|20|16|23|17|11|28|19|24|13|14|26|7|15|17|10|9|17|8|6|16|7|10|12|8|15|5|11|8|5|7|7|4|7|7|5|5|4|2|8|6|1|4|2|3|7|1|3|5|2|4|3|3|3|3|1|3|2|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N48E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N49E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N50E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\User\Desktop\LKPR\DEM/N51E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
