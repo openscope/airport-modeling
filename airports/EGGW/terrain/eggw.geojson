@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "eggw",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "elevation": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -1.0483153078, 50.8180763732 ], [ -1.0482922918, 50.818075759 ] ] } },
+{ "type": "Feature", "properties": { "elevation": null }, "geometry": { "type": "LineString", "coordinates": [ [ -0.7644447218, 50.773889 ], [ -0.7659052161, 50.773889 ] ] } },
+{ "type": "Feature", "properties": { "elevation": null }, "geometry": { "type": "LineString", "coordinates": [ [ -0.7699458503, 50.773889 ], [ -0.7701624492, 50.773889 ] ] } }
+]
+}
