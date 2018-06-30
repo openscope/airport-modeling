@@ -1,0 +1,1179 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.12">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163127273" source="LineString?uuid=e8caccca-44cb-4234-9148-cc4862b964c4&amp;crs=EPSG:4326" name="clipping">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="eddl20180630163638608" source="E:/Documents/openscope/EDDL/terrain/DEM/eddl.geojson" name="eddl">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163423337" source="Polygon?uuid=96ea595c-ea35-48a7-b2a7-411d76b99cb1&amp;crs=EPSG:4326&amp;field=area:double&amp;field=perimeter:double" name="Cleaned">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163337177" source="MultiPolygon?uuid=d2d16bd8-0713-4194-97fe-1699315e42b7&amp;crs=EPSG:4326&amp;field=area:double&amp;field=perimeter:double" name="Clipped">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163308257" source="LineString?uuid=fe236e40-7856-41c3-94c6-8828432c328f&amp;crs=EPSG:4326&amp;field=ID:integer" name="Merged">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163239081" source="LineString?uuid=bbfa2c3b-5c86-4b95-8146-a85775fb7df1&amp;crs=EPSG:4326&amp;field=ID:integer" name="contours">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Clipped__mask_20180630163113545" source="E:\Windows\temp\processing28c25a5675544e1189906c4f6f1786f9\c2afe3ab0e7146c8b59de557b68bf445\OUTPUT.tif" name="Clipped (mask)">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20180630163031844" source="LineString?uuid=256f3c76-7fab-4822-bdbf-eb24c134b356&amp;crs=EPSG:4326" name="perimeter">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="airspace20180630163019412" source="file:///E:/Documents/openscope/EDDL/terrain/airspace.csv?type=csv&amp;delimiter=%5Ct&amp;useHeader=No&amp;wktField=field_1&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" name="airspace">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="dem20180630163007833" source="E:/Documents/openscope/EDDL/terrain/dem.vrt" name="dem">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>5.84956250000000111</xmin>
+      <ymin>47.89956250000000182</ymin>
+      <xmax>12.15043749999999889</xmax>
+      <ymax>52.10043749999999818</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>dem20180630163007833</item>
+      <item>airspace20180630163019412</item>
+      <item>memory_20180630163031844</item>
+      <item>Clipped__mask_20180630163113545</item>
+      <item>memory_20180630163127273</item>
+      <item>memory_20180630163239081</item>
+      <item>memory_20180630163308257</item>
+      <item>memory_20180630163337177</item>
+      <item>memory_20180630163423337</item>
+      <item>eddl20180630163638608</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="clipping" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163127273" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="eddl" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="eddl20180630163638608" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Cleaned" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163423337" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Clipped" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163337177" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Merged" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163308257" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="contours" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163239081" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Clipped (mask)" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Clipped__mask_20180630163113545" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="perimeter" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="memory_20180630163031844" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="airspace" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="airspace20180630163019412" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="dem" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="dem20180630163007833" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>5.99958333333333371</xmin>
+        <ymin>47.99958333333333371</ymin>
+        <xmax>12.00041666666666629</xmax>
+        <ymax>52.00041666666666629</ymax>
+      </extent>
+      <id>Clipped__mask_20180630163113545</id>
+      <datasource>../../../../Windows/temp/processing28c25a5675544e1189906c4f6f1786f9/c2afe3ab0e7146c8b59de557b68bf445/OUTPUT.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Clipped (mask)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>22.77800000000002</minValue>
+            <maxValue>427.278</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>airspace20180630163019412</id>
+      <datasource>file:./airspace.csv?type=csv&amp;delimiter=%5Ct&amp;useHeader=No&amp;wktField=field_1&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>airspace</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="211,167,250,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield></displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="102">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults/>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>5.99958333333333371</xmin>
+        <ymin>47.99958333333333371</ymin>
+        <xmax>12.00041666666666629</xmax>
+        <ymax>52.00041666666666629</ymax>
+      </extent>
+      <id>dem20180630163007833</id>
+      <datasource>./dem.vrt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>dem</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>10</minValue>
+            <maxValue>771</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>eddl20180630163638608</id>
+      <datasource>./DEM/eddl.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>eddl</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="elevation">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="29,135,8,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>elevation</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="elevation" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1397769506">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="elevation" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>memory_20180630163031844</id>
+      <datasource>memory?geometry=LineString&amp;crs=EPSG:4326</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>perimeter</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="144,197,165,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield></displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults/>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>memory_20180630163127273</id>
+      <datasource>memory?geometry=LineString&amp;crs=EPSG:4326</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>clipping</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes/>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="155,31,132,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield></displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults/>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>memory_20180630163239081</id>
+      <datasource>memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=ID:integer(-1,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>contours</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="111,105,142,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="74834736">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="ID" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>memory_20180630163308257</id>
+      <datasource>memory?geometry=LineString&amp;crs=EPSG:4326&amp;field=ID:integer(-1,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Merged</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="158,140,115,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>ID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="ID" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>memory_20180630163337177</id>
+      <datasource>memory?geometry=MultiPolygon&amp;crs=EPSG:4326&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Clipped</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="perimeter">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="97,248,213,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>area</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="area" index="0" name=""/>
+        <alias field="perimeter" index="1" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="576329136">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="area" expression=""/>
+        <default field="perimeter" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>6.79098862806399595</xmin>
+        <ymin>50.52595536470821713</ymin>
+        <xmax>7.96111111110000014</xmax>
+        <ymax>51.34862222222222528</ymax>
+      </extent>
+      <id>memory_20180630163423337</id>
+      <datasource>memory?geometry=Polygon&amp;crs=EPSG:4326&amp;field=area:double(20,5)&amp;field=perimeter:double(20,5)&amp;field=mean:double%20precision(0,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Cleaned</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields>
+        <field typeName="double" precision="0" expression="floor(&quot;mean&quot; / 304.8) * 304.8" length="10" type="6" comment="" name="elevation"/>
+      </expressionfields>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="perimeter">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mean">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="elevation">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="28,31,182,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>area</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Label"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="area" index="0" name=""/>
+        <alias field="perimeter" index="1" name=""/>
+        <alias field="mean" index="2" name=""/>
+        <alias field="elevation" index="3" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="815886192">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="area" expression=""/>
+        <default field="perimeter" expression=""/>
+        <default field="mean" expression=""/>
+        <default field="elevation" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>airspace20180630163019412</value>
+        <value>memory_20180630163031844</value>
+        <value>memory_20180630163127273</value>
+        <value>memory_20180630163239081</value>
+        <value>memory_20180630163308257</value>
+        <value>memory_20180630163337177</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
