@@ -1,0 +1,745 @@
+<VRTDataset rasterXSize="14401" rasterYSize="9601">
+  <SRS>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</SRS>
+  <GeoTransform>  1.1999583333333334e+01,  8.3333333333333328e-04,  0.0000000000000000e+00,  6.4000416666666666e+01,  0.0000000000000000e+00, -8.3333333333333328e-04</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">1242</MDI>
+      <MDI key="STATISTICS_MEAN">140.8959913918</MDI>
+      <MDI key="STATISTICS_MINIMUM">-3</MDI>
+      <MDI key="STATISTICS_STDDEV">199.84147320481</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">91.78</MDI>
+    </Metadata>
+    <NoDataValue>-32768</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-3.6225</HistMin>
+        <HistMax>1242.6225</HistMax>
+        <BucketCount>1000</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>4|184|476753|8753|2849|7462|7237|3769|3701|3748|13008|4251|4055|3705|8519|3725|3575|3445|9463|2623|2394|2190|3577|5899|4155|2446|5918|1892|1851|1926|12407|2483|2372|2807|2853|5404|2756|3228|7150|6386|5143|3658|4919|6369|2698|2685|2618|5492|2863|2781|2765|7092|2461|2486|2521|5469|3167|2896|7908|7360|2409|2219|2532|5086|2017|2138|2581|6604|1814|1807|1930|3804|1939|16678|2517|4485|1884|1772|1876|5311|2788|3611|6076|12254|3871|3525|2969|5371|2653|2552|3361|5388|2306|1771|1676|3382|1883|2376|3381|8708|1920|1799|1775|1719|3697|1949|2174|3563|4900|1694|3304|1759|6273|2176|2566|4811|8026|2060|2094|2009|3976|2272|2326|2982|3869|1766|1781|2045|3942|2177|2241|2823|3873|1677|1630|1747|3436|1793|1995|2017|4585|2041|2149|2167|4009|2109|2280|2487|4021|1732|1640|1474|2611|1239|1119|1114|1967|932|1104|1326|3362|1437|1560|2048|2544|1260|1947|1047|1021|2056|1008|1069|845|1697|845|761|802|1692|935|1252|806|1275|569|520|530|1011|520|596|578|1139|613|630|957|2762|1137|1607|942|1829|730|728|748|1569|818|856|777|1644|843|876|903|1894|1933|1832|1079|1759|802|798|772|1579|1675|1033|875|1706|1899|969|1054|2320|1543|2106|1177|2091|951|937|957|885|1871|924|919|898|1640|861|942|1106|3646|2626|1198|961|3659|1062|1018|1064|2355|1752|1255|1373|2873|1474|1527|1712|4720|3329|1386|1186|2474|1019|1050|960|2013|1152|2514|1118|2222|1132|1204|1263|3013|2305|1250|1006|1833|929|966|1096|2163|1437|962|893|2029|1071|1018|1142|2814|2315|1172|872|1485|738|640|1232|1431|833|691|666|736|1460|779|774|956|3052|1441|929|735|1255|594|662|538|1297|611|572|561|1233|659|813|1096|3882|1118|946|720|1408|598|605|539|1068|505|506|496|1038|541|580|604|1971|786|586|512|929|393|427|433|944|456|417|402|927|551|745|855|2365|625|484|413|684|338|324|343|755|371|407|749|489|1190|627|691|823|1811|455|368|370|691|334|376|376|753|424|414|372|791|396|389|417|1001|310|240|189|329|168|166|143|330|146|148|168|327|164|192|218|601|162|142|115|246|136|107|120|230|111|145|141|474|233|236|260|502|114|115|125|199|79|91|98|181|85|91|111|217|146|213|303|485|326|129|101|101|189|87|89|78|177|89|84|96|277|227|251|334|349|160|125|123|216|109|92|113|234|113|101|135|414|229|261|355|404|171|302|175|326|662|193|207|493|243|244|304|626|362|452|601|600|201|215|207|395|156|179|175|305|180|207|193|406|256|287|406|280|453|211|170|178|359|170|145|159|311|178|183|166|403|272|356|304|452|168|174|147|284|162|157|160|326|184|204|199|477|342|413|236|346|156|121|136|292|126|144|144|317|146|159|160|393|254|365|195|308|122|108|121|211|103|99|75|194|97|104|104|287|234|227|148|135|207|89|83|95|220|126|139|116|583|167|752|283|528|346|199|134|229|121|103|111|212|80|109|118|238|134|139|155|392|411|183|148|233|115|125|96|194|100|111|106|230|137|130|159|353|302|178|148|279|94|107|120|211|119|110|112|244|123|143|145|421|325|236|187|340|178|164|181|200|526|275|269|386|723|366|364|424|1019|257|201|169|298|137|143|117|220|128|135|133|275|163|150|204|774|229|177|133|240|102|131|109|253|132|105|109|246|157|140|194|750|209|157|120|232|95|88|91|192|102|90|73|219|102|115|147|440|177|148|118|197|90|115|102|78|188|110|106|95|229|130|135|183|429|119|104|76|150|75|74|73|146|65|70|88|176|95|133|142|403|144|130|98|203|102|88|115|184|91|99|83|218|226|151|287|561|156|110|116|192|100|111|87|197|97|96|100|242|141|154|173|408|82|92|92|153|74|66|53|136|75|71|88|80|148|92|112|188|214|66|71|69|123|53|71|53|104|55|60|69|122|65|95|110|172|82|59|64|129|51|56|59|123|60|71|59|144|72|79|141|130|56|56|36|70|37|34|34|79|28|37|43|81|45|53|84|106|48|36|44|70|26|35|26|55|28|34|26|35|76|63|98|66|75|36|31|34|59|31|24|38|66|26|30|34|89|68|61|40|61|30|11|27|62|23|22|22|43|22|25|21|54|36|46|27|54|20|24|18|43|14|13|16|28|15|17|25|36|36|32|29|33|15|29|16|40|16|18|11|30|22|23|15|13|29|44|26|15|38|11|14|10|17|10|13|8|17|15|12|13|26|20|16|13|13|6|5|10|13|8|10|10|21|5|9|8|10|11|8|4|5|6|6|7|7|11|9|6|9|3|8|6|17|12|8|6|16|7|7|9|9|4|2|7|11|8|9|2|17|2|12|8|9|6|3|5|7|15|4|6|2|9|4|3|3|19|6|6|5|5|0|3|1|3|0|1|2|1|0|0|1|3|3|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N56E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N56E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N56E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N56E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N56E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N57E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N58E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O33/N59E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N56E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N56E020.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N56E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N56E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N56E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="8400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N57E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N57E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N57E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N57E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N57E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="7200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N58E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N58E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N58E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N58E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N58E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="6000" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E020.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/O34/N59E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="4800" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N60E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N61E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N62E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E012.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E013.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="1200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E014.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="2400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E015.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="3600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E016.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="4800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P33/N63E017.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="6000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E020.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N60E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="3600" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N61E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N61E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N61E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N61E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="2400" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E020.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N62E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="1200" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E018.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="7200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E019.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="8400" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E020.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="9600" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E021.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="10800" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E022.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="12000" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0" shared="0">C:\Users\OlaRune\Documents\ESSA\DEM/P34/N63E023.hgt</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1201" RasterYSize="1201" DataType="Int16" BlockXSize="1201" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="1201" ySize="1201" />
+      <DstRect xOff="13200" yOff="0" xSize="1201" ySize="1201" />
+      <NODATA>-32768</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
