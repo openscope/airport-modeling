@@ -1,0 +1,1 @@
+Generated with [qgsopenscope](https://github.com/openscope/qgsopenscope)
